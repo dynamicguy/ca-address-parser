@@ -17,7 +17,7 @@ for address in address_list:
     print("******")
 
 
-address="306 190 KANANASKIS WAY, CANMORE"
+address="306, 190 KANANASKIS WAY, CANMORE"
 doc=nlp(address)
 ent_list=[(ent.text, ent.label_) for ent in doc.ents]
 print("Address string -> "+address)

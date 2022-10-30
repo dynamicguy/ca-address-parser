@@ -19,7 +19,7 @@ This is a minimal implementation of a Canada address parser built using [spaCy N
      - model-last
 
 ## Training corpus
-A sample corpus of US addresses to train/test the parser is present under [corpus/dataset](https://github.com/dynamicguy/ca-address-parser/tree/main/corpus/dataset) folder.
+A sample corpus of Canadaian addresses to train/test the parser is present under [corpus/dataset](https://github.com/dynamicguy/ca-address-parser/tree/main/corpus/dataset) folder.
 JSON based rules required by Entity ruler are present under [corpus/rules]()
 
 ## Config
@@ -58,7 +58,7 @@ To start the training process, below train command can be executed:
 This saves the output NER models under [output](https://github.com/dynamicguy/ca-address-parser/tree/main/output) folder.
 
 ## Predictions
-Predictions for a few sample US addresses can be checked by executing [ca_predict.py](https://github.com/dynamicguy/ca-address-parser/blob/main/ca_predict.py)
+Predictions for a few sample Canadian addresses can be checked by executing [ca_predict.py](https://github.com/dynamicguy/ca-address-parser/blob/main/ca_predict.py)
 >python ca_predict.py
 
 ## Output
@@ -78,6 +78,10 @@ Parsed address -> [('42', 'ADDR_UNIT'), ('4', 'ADDR_STREET_NUMBER'), ('STONEGATE
 Address string -> 7, 209 WOODSIDE DR NW, AIRDRIE
 Parsed address -> [('7', 'ADDR_UNIT'), ('209', 'ADDR_STREET_NUMBER'), ('WOODSIDE', 'ADDR_STREET_NAME'), ('DR', 'ADDR_STREET_TYPE'), ('NW', 'ADDR_STREET_DIRECTION'), ('AIRDRIE', 'ADDR_CITY')]
 ******
-Address string -> 306 190 KANANASKIS WAY, CANMORE
-Parsed address -> [('306', 'ADDR_UNIT'), ('190', 'ADDR_UNIT'), ('KANANASKIS', 'ADDR_STREET_NAME'), ('WAY', 'ADDR_UNIT'), ('CANMORE', 'ADDR_STREET_NUMBER')]
+Address string -> 306, 190 KANANASKIS WAY, CANMORE
+Parsed address -> [('306', 'ADDR_UNIT'), ('190', 'ADDR_STREET_NUMBER'), ('KANANASKIS', 'ADDR_STREET_NAME'), ('WAY', 'ADDR_UNIT'), ('CANMORE', 'ADDR_STREET_NUMBER')]
 ```
+
+## Download more data
+
+  https://www.statcan.gc.ca/en/lode/databases/oda
