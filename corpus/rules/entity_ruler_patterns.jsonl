@@ -1,0 +1,11 @@
+{"label":"STATE","pattern":[{"LOWER":"alberta"}]}
+{"label":"STATE","pattern":[{"LOWER":"british columbia"}]}
+{"label":"STATE","pattern":[{"LOWER":"manitoba"}]}
+{"label":"STATE","pattern":[{"LOWER":"new brunswick"}]}
+{"label":"STATE","pattern":[{"LOWER":"newfoundland and labrador"}]}
+{"label":"STATE","pattern":[{"LOWER":"nova scotia"}]}
+{"label":"STATE","pattern":[{"LOWER":"ontario"}]}
+{"label":"STATE","pattern":[{"LOWER":"prince edward island"}]}
+{"label":"STATE","pattern":[{"LOWER":"quebec"}]}
+{"label":"STATE","pattern":[{"LOWER":"saskatchewan"}]}
+{"label":"STATE","pattern":[{"LOWER":"yukon"}]}
